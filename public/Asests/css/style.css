@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(images/bg.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: block;
+    height: 500px;
+    width: 1450px;
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/bg.jpg);
+    background-size: cover;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.icon {
+    float: left;
+    color: #020202;
+    margin-top: 18px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+nav  {
+    background: #f2f2f2;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 13px;
+}
+
+.main-nav li {
+    display: inline-block;
+    font-family: "Fira Sans";
+    color: rgba(61, 61, 61, 0.7);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.main-nav li:last-child { margin-right: 35px; }
+
+.main-nav li:hover,
+.main-nav li:focus {
+    color: #020202;
+}
+
+button {
+    cursor: pointer; 
+    float: right; 
+    font-size: 12px; 
+    height: 25px; 
+    width: 100px; 
+    color: rgba(61, 61, 61, 0.7); 
+    border: 0.2px solid rgba(61, 61, 61, 0.7); 
+    border-radius: 2px; 
+    margin-top: 13px;
+}
+
+.button:hover,
+.button:focus {
+    color: #000;
+    border: 0.2px solid #000;
+    outline: 0;
+}
+
+.icon-right {
+    float: right;
+    color: rgba(61, 61, 61, 0.7);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.icon-right:hover,
+.icon-right:focus {
+    color: #000;
+}
+
+.image {
+    float: right;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: #f2f2f2;
+    font-family: "Fira Sans";
+}
+
+.text h1 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 220%;
+    font-size: 42px;
+}
+
+.text p {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgba(242, 242, 242, 0.7);
+}
+
+.text .p {
+    font-size: 12px; 
+    letter-spacing: 0.5px; 
+    word-spacing: 0.8px; 
+    margin-top: -30px;
+}
+
+.text .p span {
+    color: rgba(242, 242, 242, 0.35);
+}
+
+.p1 {
+     font-size: 12px; 
+    letter-spacing: 0.5px; 
+    word-spacing: 0.8px; 
+    color: rgba(242, 242, 242, 0.7); 
+    position: absolute; 
+    top: 91%; 
+    left: 3%; 
+    font-family: "Fera Sans";
+}
+
+.p1 span {
+     color: rgba(242, 242, 242, 0.35);
+}
+
+.bar {
+    height: 40px;
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.bar:focus {
+    outline: 0;
+}
+
+.button {
+    position: relative;
+    top: -59px;
+    left: 815px;
+    height: 35px;
+    width: 80px;
+    cursor: pointer;
+    background: #fff;
+    border: 0.8px solid rgba(61, 61, 61, 0.7);
+    border-radius: 5px;
+    color: rgba(61, 61, 61, 0.7);
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.container1 {
+    display: block;
+    width: 1450px;
+    height: 48.5px;
+    background: #fff;
+    position: absolute;
+    bottom: 151.5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul {
+    list-style: none;
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: "Fira Sans";
+    font-size: 12.5px;
+    color: rgba(61, 61, 61, 0.7);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+ul li:hover,
+ul li:focus {
+    color: #020202;
+}
